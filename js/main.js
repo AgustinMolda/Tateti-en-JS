@@ -39,7 +39,7 @@ function createBoard(){
         const div = document.createElement('div');
     
         div.classList.add('cell');
-        div.addEventListener('click', handleGame , {once:true});
+        div.addEventListener('click' ,'touchstart', handleGame , {once:true});
 
         gameBoard.append(div);
     }
